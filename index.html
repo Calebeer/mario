@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="src/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css ">
     <meta name="viewport" content="width=h1, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,13 +24,13 @@
         </video>
     </div>
     <header class="cabecalho">
-        <a href="">
-            <img src="src/imagens/logo-chapeu-mario.png" alt="logo-chapeu-mario">
+        <a href="" >
+            <img class="logo" src="src/imagens/logo-chapeu-mario.png" alt="logo-chapeu-mario">
         </a>
         <nav>
             <ul class="menu">
-                <li>Home</li>
-                <li>Detalhes</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
             </ul>
         </nav>
     </header>
@@ -41,6 +43,13 @@
             <button class="botao-trailer">Veja o trailer</button>
         </div>
         <img class="mario" src="src/imagens/super-mario-chars.png" alt="">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
     </main>
 </body>
 
