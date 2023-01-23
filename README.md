@@ -1,4 +1,4 @@
-Projeto Mário
+Projeto Mário,
 Dá uma olhada aí 😉
 
 https://mario-six.vercel.app/
